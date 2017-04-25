@@ -15,7 +15,6 @@ public class StartActivity extends AppCompatActivity {
     private static final String LOG_TAG = StartActivity.class.getSimpleName();
     private TextView loginButton;
     private TextView signUpButton;
-    private ImageView logo;
 
 
     @Override
@@ -31,7 +30,7 @@ public class StartActivity extends AppCompatActivity {
     private void initializeWidgets() {
         loginButton = (TextView) findViewById(R.id.start_login_button);
         signUpButton = (TextView) findViewById(R.id.start_signup_button);
-        logo = (ImageView) findViewById(R.id.start_logo);
+        ImageView logo = (ImageView) findViewById(R.id.start_logo);
 
         // Use Picasso to load and resize the logo image, DO NOT set image directly to image view,
         // it's could cause app crashing

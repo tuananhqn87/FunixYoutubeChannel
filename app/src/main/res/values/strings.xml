@@ -1,0 +1,16 @@
+<resources>
+    <string name="main_activity_label">xTube</string>
+    <string name="beginners">Beginners</string>
+    <string name="watched">Watched</string>
+    <string name="hannah_diary">Hannah</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="start_image">Start Image</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_image">Login Image</string>
+    <string name="sign_up_image">Sign Up Image</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="log_out">Log Out</string>
+</resources>
