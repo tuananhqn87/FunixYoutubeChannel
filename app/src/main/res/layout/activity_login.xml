@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.anhtran.funixyoutubechannel.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:contentDescription="@string/login_image"
+            android:src="@drawable/funix_logo" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/login_user"
+            style="@style/Base.V7.Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="@string/username" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/login_password"
+            style="@style/Base.V7.Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/login_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
